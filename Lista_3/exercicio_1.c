@@ -4,7 +4,7 @@ para verificar se o número pertence ou não ao vetor. A impressão desta informaçã
 não ao vetor) deve ser na função main. */
 #include<stdio.h>
 #include <locale.h>
-#define tam 5
+#define tam 30
 void preencheVetor(int vetor[]);
 int verificaNumero (int vetor[]);
 int main (){
