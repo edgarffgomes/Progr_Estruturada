@@ -6,7 +6,7 @@ dentro do vetor em ordem inversa.*/
 
 #include<stdio.h>
 #include <locale.h>
-#define tam 8
+#define tam 15
 void preencheVetor(int vetor[]);
 void inverteVetor (int vetor[]);
 void imprimeVetor (int vetor[]);
