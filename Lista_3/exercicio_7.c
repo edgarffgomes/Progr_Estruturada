@@ -14,12 +14,12 @@ Obs.: Não é permitido ordenar o vetor.
 #include <locale.h>
 #define tam 100
 void preencheVetor(int vetor[]);
-void imprimeInfo (int vetor[]);
+void imprimeInfo (int vetor[],int vetaux[]);
 int main (){
 	setlocale(LC_ALL, "Portuguese");
-	int vetor[tam];
+	int vetor[tam], vetaux[100];
 	preencheVetor(vetor);
-	imprimeInfo(vetor);
+	imprimeInfo(vetor, vetaux);
 	return 0;
 }
 void preencheVetor(int vetor[]){
@@ -29,8 +29,8 @@ void preencheVetor(int vetor[]){
 		scanf("%d", &vetor[i]);
 	}
 }
-void imprimeInfo(int vetor[]){
-	int i,j, quantidade, vetaux[100];
+void imprimeInfo(int vetor[],int vetaux[]){
+	int i,j, quantidade;
 	for(i=0;i<100;i++){
 		vetaux[i] = 0;
 	}
