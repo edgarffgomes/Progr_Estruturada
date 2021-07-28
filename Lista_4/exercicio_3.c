@@ -5,8 +5,8 @@ duas funções: uma para a leitura da matriz e outra para realizar a busca. A impr
 informação (se x está presente ou não na matriz) deve ser na função main. */
 #include<stdio.h>
 #include <locale.h>
-#define A 2
-#define B 2
+#define A 5
+#define B 5
 void preencheMatriz (int matriz[][B]);
 int retornaPresenca (int matriz [][B], int numero);
 int main (){
