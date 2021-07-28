@@ -21,6 +21,13 @@ void preencheMatriz (float matriz[][B]){
 			printf("Escolha um valor para M[%d][%d]: ", i+1,j+1);
 			scanf("%f", &matriz[i][j]);
 		}
+		
+		for(i=0;i<A;i++){
+			for(j=0;j<B;j++){
+				printf("%.f ", matriz[i][j]);
+			}
+			printf("\n");
+		}
 }
 void imprimeMaior (float matriz [][B]){
 	int i, j, imaior,jmaior;
@@ -35,4 +42,3 @@ void imprimeMaior (float matriz [][B]){
 		}
 	printf("O maior valor da matriz é %.f, e se encontra na posição [%d][%d]\n", maior,imaior+1,jmaior+1);
 }
-
