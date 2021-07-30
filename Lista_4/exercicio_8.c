@@ -12,7 +12,7 @@ IDENTIDADE” ou “MATRIZ NAO E IDENTIDADE”. */
 #define A 15
 #define B 15
 void preencheMatriz (int matriz[][B]);
-int verificaIdentidae (int matriz [][B]);
+int verificaIdentidade (int matriz [][B]);
 int main (){
 	setlocale(LC_ALL, "Portuguese");
 	int matriz [A][B];
@@ -49,5 +49,3 @@ int verificaIdentidade (int matriz [][B]){
 	else
 	return 0;
 }
-
-
