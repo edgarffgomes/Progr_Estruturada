@@ -17,9 +17,9 @@ int main (){
 	int matriz [A][B];
 	preencheMatriz(matriz);
 	if(verificaSimetria(matriz) == 1)
-	printf("A matriz é simétrica");
+	printf("MATRIZ SIMÉTRICA");
 	else
-	printf("A matriz não é simétrica");
+	printf("MATRIZ NÃO SIMÉTRICA");
 	return 0;
 }
 
